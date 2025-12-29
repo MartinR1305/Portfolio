@@ -1,40 +1,57 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MARTIN RECHER | Game Developer</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MARTIN RECHER | Game Developer</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+  <!----------------------------------------------------------------------------------- TOP BAR ---------------------------------------------------------------------------------->
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
   <header class="top-bar">
+
     <nav class="top-nav">
       <a href="#about"      data-i18n="nav_about"> </a>
       <a href="#education"  data-i18n="nav_education"> </a>
       <a href="#experience" data-i18n="nav_experience"> </a>
+      <a href="#projects"   data-i18n="nav_projects"> </a>
+      <a href="#games"      data-i18n="nav_games"> </a>
+      <a href="#contact"    data-i18n="nav_contact"> </a>
     </nav>
 
     <div class="lang-switch">
       <button data-lang="fr">FR</button>
       <button data-lang="en">EN</button>
     </div>
+
   </header>
 
-  <!-- HERO -->
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+  <!------------------------------------------------------------------------------------- HERO ----------------------------------------------------------------------------------->
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
   <header class="hero">
+
     <div class="hero-overlay"></div>
+
     <div class="hero-content">
       <h1 data-i18n="name"></h1>
       <h2 data-i18n="job"></h2>
     </div>
+
   </header>
 
-  <!-- ABOUT -->
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+  <!------------------------------------------------------------------------------------- ABOUT ---------------------------------------------------------------------------------->
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
   <section class="about" id="about">
     <div class="about-container">
+
       <div class="about-text">
         <h3 data-i18n="about_title"></h3>
         <p data-i18n="about_p1"></p>
@@ -44,16 +61,20 @@
       <div class="about-photo">
         <img src="images/photo.jpg"/>
       </div>
+
     </div>
   </section>
 
-  <!-- FORMATION -->
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+  <!----------------------------------------------------------------------------------- FORMATION -------------------------------------------------------------------------------->
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
   <section class="education"  id="education">
 
     <h2 class="section-title" data-i18n="education_title"></h2>
 
     <div class="timeline">
 
+      <!------------------------------------------------------------------------------- FORMATION 1 ------------------------------------------------------------------------------>
       <div class="timeline-item fade-in">
         <div class="timeline-content">
 
@@ -70,6 +91,7 @@
         </div>
       </div>
 
+      <!------------------------------------------------------------------------------- FORMATION 2 ------------------------------------------------------------------------------>
       <div class="timeline-item fade-in delay-1">
         <div class="timeline-content">
 
@@ -86,6 +108,7 @@
         </div>
       </div>
 
+      <!------------------------------------------------------------------------------- FORMATION 3 ------------------------------------------------------------------------------>
       <div class="timeline-item fade-in delay-2">
         <div class="timeline-content">
 
@@ -102,21 +125,41 @@
         </div>
       </div>
 
+      <!------------------------------------------------------------------------------- FORMATION 4 ------------------------------------------------------------------------------>
+      <div class="timeline-item fade-in delay-3">
+        <div class="timeline-content">
+
+            <h3 data-i18n="edu_4_title"></h3>
+            <span class="timeline-date" data-i18n="edu_4_date"></span>
+
+            <p class="timeline-location">
+              <p class="timeline-location">
+                <img src="./images/Flags/France.svg.png" class="flag">
+                <span data-i18n="edu_4_location"></span>
+              </p>
+              <p class="timeline-description" data-i18n="edu_4_desc"></p>
+            </p>
+        </div>
+      </div>
+
     </div>
   </section>
 
-  <!-- EXPERIENCE -->
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+  <!---------------------------------------------------------------------------------- EXPERIENCE -------------------------------------------------------------------------------->
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
   <section class="experience" id="experience">
     <h2 class="section-title" data-i18n="experience_title"></h2>
 
     <div class="timeline">
 
+      <!------------------------------------------------------------------------------ EXPERIENCE 1 ------------------------------------------------------------------------------>
       <div class="timeline-item fade-in">
         <div class="timeline-content">
 
           <h3 data-i18n="exp_1_title"></h3>
           <div class="company-row">
-            <img src="./images/Entreprise/logo_corys.png" alt="Studio XYZ logo" class="company-logo">
+            <img src="./images/Entreprise/logo_corys.png" class="company-logo">
             <span class="timeline-company" data-i18n="exp_1_company"></span>
           </div>
       
@@ -131,9 +174,405 @@
         </div>      
       </div>
 
+      <!------------------------------------------------------------------------------ EXPERIENCE 2 ------------------------------------------------------------------------------>
+      <div class="timeline-item fade-in delay-1">
+        <div class="timeline-content">
+
+          <h3 data-i18n="exp_2_title"></h3>
+          <div class="company-row">
+            <img src="./images/Entreprise/CHRU.jpg" class="company-logo">
+            <span class="timeline-company" data-i18n="exp_2_company"></span>
+          </div>
+      
+          <span class="timeline-date" data-i18n="exp_2_date"> </span>
+      
+          <p class="timeline-location">
+            <img src="./images/Flags/France.svg.png" class="flag">
+            <span data-i18n="exp_2_location"></span>
+          </p>
+      
+          <p class="timeline-description" data-i18n="exp_2_desc"></p>
+        </div>      
+      </div>
 
     </div>
   </section>
+
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+  <!------------------------------------------------------------------------------------ PROJECTS -------------------------------------------------------------------------------->
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+  <section class="projects" id="projects">
+    <h2 class="section-title" data-i18n="projects_title"></h2>
+
+    <!------------------------------------------------------------------------------ PROJETS SCOLAIRES --------------------------------------------------------------------------->
+    <h3 class="subtitle" data-i18n="projects_school"></h3>
+
+    <div class="projects-grid">
+
+      <!--------------------------------------------------------------------------- PROJETS SCOLAIRES 1 --------------------------------------------------------------------------->
+      <div class="project-card">
+
+        <!-- SUMMARY -->
+        <div class="project-header">
+          <h4 data-i18n="proj_1_title"></h4>
+          <span class="project-date" data-i18n="proj_1_date"></span>
+        </div>
+
+        <p class="project-tech">C++ · DirectX · PhysX</p>
+
+        <button class="project-toggle" data-i18n="projects_view"></button>
+
+        <!-- DETAILS -->
+        <div class="project-details">
+
+          <!-- MEDIA -->
+          <div class="project-media">
+
+            <!-- ROW : arrows + media -->
+            <div class="media-row">
+
+              <button class="media-btn prev" aria-label="Previous media">
+                <svg viewBox="0 0 24 24" class="media-icon">
+                  <path d="M15 18l-6-6 6-6" />
+                </svg>
+              </button>
+
+              <div class="media-container">
+                <img src="./Projets/RocketRace/Images/image1.jfif" class="media-item active">
+                <img src="./Projets/RocketRace/Images/image2.jfif" class="media-item">
+                <img src="./Projets/RocketRace/Images/image3.jfif" class="media-item">
+                <img src="./Projets/RocketRace/Images/image4.jfif" class="media-item">
+
+                <!-- Si tu veux YouTube plus tard, ce sera ici -->
+                <video
+                  src="./Projets/RocketRace/WIN_20250514_13_34_54_Pro.mp4"
+                  class="media-item"
+                  controls>
+                </video>
+              </div>
+
+              <button class="media-btn next" aria-label="Next media">
+                <svg viewBox="0 0 24 24" class="media-icon">
+                  <path d="M9 6l6 6-6 6" />
+                </svg>
+              </button>
+
+            </div>
+
+            <!-- DOTS (EN DESSOUS) -->
+            <div class="media-dots"></div>
+
+          </div>
+
+          <!-- DESCRIPTION -->
+          <div class="project-description" data-i18n-html="proj_1_desc"></div>
+
+
+          <!-- LINKS -->
+          <div class="project-links">
+            <a href="#" target="_blank">Lien Git du projet</a>
+            <a href="#" download>Télécharger le code source</a>
+            <a href="#" download>Télécharger le rapport</a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!--------------------------------------------------------------------------------- PROJETS PERSOS ---------------------------------------------------------------------------->
+    <h3 class="subtitle" data-i18n="projects_personal"></h3>
+
+    <div class="projects-grid">
+
+      <!------------------------------------------------------------------------------ PROJETS PERSOS 1 --------------------------------------------------------------------------->
+      <div class="project-card">
+
+        <!-- SUMMARY -->
+        <div class="project-header">
+          <h4 data-i18n="proj_1_title"></h4>
+          <span class="project-date" data-i18n="proj_1_date"></span>
+        </div>
+
+        <p class="project-tech">C++ · DirectX · PhysX</p>
+
+        <button class="project-toggle" data-i18n="projects_view"></button>
+
+        <!-- DETAILS -->
+        <div class="project-details">
+
+          <!-- MEDIA -->
+          <div class="project-media">
+
+            <!-- ROW : arrows + media -->
+            <div class="media-row">
+
+              <button class="media-btn prev" aria-label="Previous media">
+                <svg viewBox="0 0 24 24" class="media-icon">
+                  <path d="M15 18l-6-6 6-6" />
+                </svg>
+              </button>
+
+              <div class="media-container">
+                <img src="./Projets/RocketRace/Images/image1.jfif" class="media-item active">
+                <img src="./Projets/RocketRace/Images/image2.jfif" class="media-item">
+                <img src="./Projets/RocketRace/Images/image3.jfif" class="media-item">
+                <img src="./Projets/RocketRace/Images/image4.jfif" class="media-item">
+
+                <!-- Si tu veux YouTube plus tard, ce sera ici -->
+                <video
+                  src="./Projets/RocketRace/WIN_20250514_13_34_54_Pro.mp4"
+                  class="media-item"
+                  controls>
+                </video>
+              </div>
+
+              <button class="media-btn next" aria-label="Next media">
+                <svg viewBox="0 0 24 24" class="media-icon">
+                  <path d="M9 6l6 6-6 6" />
+                </svg>
+              </button>
+
+            </div>
+
+            <!-- DOTS (EN DESSOUS) -->
+            <div class="media-dots"></div>
+
+          </div>
+
+          <!-- DESCRIPTION -->
+          <div class="project-description" data-i18n-html="proj_1_desc"></div>
+
+          <!-- LINKS -->
+          <div class="project-links">
+            <a href="#" target="_blank">Lien Git du projet</a>
+            <a href="#" download>Télécharger le code source</a>
+            <a href="#" download>Télécharger le rapport</a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+  <!------------------------------------------------------------------------------------- GAMES ---------------------------------------------------------------------------------->
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+  <section class="games" id="games">
+      <h2 class="section-title" data-i18n="games_title"></h2>
+
+    <h3 class="subtitle" data-i18n= "games_favorites"></h3>
+
+    <div class="top-game rank-1" style="background-image: url('./images/Games/ac2.png')">
+      <div class="top-game-overlay"></div>
+      <div class="top-game-content">
+        <div class="rank-badge gold">#1</div>
+        <h4>Assassin's Creed II</h4>
+      </div>
+    </div>
+
+    <div class="top-game rank-2" style="background-image: url('./images/wallpaper.jpg)">
+      <div class="top-game-overlay"></div>
+      <div class="top-game-content">
+        <div class="rank-badge silver">#2</div>
+        <h4>Sekiro : Shadows Die Twice</h4>
+      </div>
+    </div>
+
+    <div class="top-game rank-3" style="background-image: url('./images/wallpaper.jpg)">
+      <div class="top-game-overlay"></div>
+      <div class="top-game-content">
+        <div class="rank-badge bronze">#3</div>
+        <h4>Dark Souls I</h4>
+      </div>
+    </div>
+
+    <div class="top-game rank-4" style="background-image: url('./images/wallpaper.jpg)">
+      <div class="top-game-overlay"></div>
+      <div class="top-game-content">
+        <div class="rank-badge">#4</div>
+        <h4>Mafia I </h4>
+      </div>
+    </div>
+
+    <div class="top-game rank-5" style="background-image: url('./images/wallpaper.jpg)">
+      <div class="top-game-overlay"></div>
+      <div class="top-game-content">
+        <div class="rank-badge">#5</div>
+        <h4>Pokemon Blanche 2</h4>
+      </div>
+    </div>
+  
+
+    <!-- JEUX RÉCENTS -->
+    <h3 class="subtitle" data-i18n="games_recent"></h3>
+    <div class="recent-games">
+      <div class="recent-game">
+
+        <!-- HEADER -->
+        <div class="recent-game-header">
+          <img src="./images/Games/Sekiro.jpg" class="game-icon">
+
+          <div class="game-main-info">
+            <h4>Sekiro - Shadows Die Twice</h4>
+            <span class="game-meta">60 h · ⭐ 19/20 · Janvier 2026</span>
+          </div>
+
+          <button class="recent-toggle">+</button>
+        </div>
+    
+        <!-- DETAILS -->
+        <div class="recent-game-details">
+    
+          <div class="pros-cons">
+
+            <div class="pros">
+              <h5>👍 Ce que j’ai aimé</h5>
+              <ul>
+                <li>Level design ouvert et cohérent</li>
+                <li>Sensation de liberté</li>
+                <li>Direction artistique</li>
+              </ul>
+            </div>
+
+            <div class="cons">
+              <h5>👎 Ce que j’ai moins aimé</h5>
+                <ul>
+                  <li>Équilibrage inégal en fin de jeu</li>
+                  <li>Répétitivité de certains donjons</li>
+                </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="recent-game">
+
+        <!-- HEADER -->
+        <div class="recent-game-header">
+          <img src="./images/Games/AC_Shadows.webp" class="game-icon">
+
+          <div class="game-main-info">
+            <h4>Assassin's Creed Shadows</h4>
+            <span class="game-meta">100 h · ⭐ 13/20 · Novembre 2025</span>
+          </div>
+
+          <button class="recent-toggle">+</button>
+        </div>
+    
+        <!-- DETAILS -->
+        <div class="recent-game-details">
+    
+          <div class="pros-cons">
+
+            <div class="pros">
+              <h5>👍 Ce que j’ai aimé</h5>
+              <ul>
+                <li>Level design ouvert et cohérent</li>
+                <li>Sensation de liberté</li>
+                <li>Direction artistique</li>
+              </ul>
+            </div>
+
+            <div class="cons">
+              <h5>👎 Ce que j’ai moins aimé</h5>
+                <ul>
+                  <li>Équilibrage inégal en fin de jeu</li>
+                  <li>Répétitivité de certains donjons</li>
+                </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+
+  <section class="contact" id="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact-card">
+
+      <h3 class="contact-title">Informations de contact</h3>
+
+      <div class="contact-grid">
+
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">votre.email@exemple.com</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <span class="contact-label">Localisation</span>
+            <span class="contact-value">Votre ville, Pays</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div>
+            <span class="contact-label">Téléphone</span>
+            <span class="contact-value">+33 X XX XX XX XX</span>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">in</div>
+          <div>
+            <span class="contact-label">LinkedIn</span>
+            <a class="contact-value link" href="#" target="_blank">
+              Profil LinkedIn
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="contact-availability">
+        <span class="availability-icon">📅</span>
+        <strong>Disponibilité</strong>
+        <span>Disponible dès janvier 2026</span>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <footer class="footer">
+
+    <div class="footer-content">
+
+      <!-- Copyright -->
+      <p class="footer-copy">
+        © 2026 Votre Nom. Tous droits réservés.
+      </p>
+
+    </div>
+
+    <!-- Scroll to top -->
+    <button class="scroll-top" aria-label="Retour en haut">
+      <svg viewBox="0 0 24 24" class="scroll-top-icon">
+        <path d="M12 5l-7 7h4v7h6v-7h4z"/>
+      </svg>
+    </button>
+
+
+  </footer>
+
 
 
   <script src="script.js"></script>
