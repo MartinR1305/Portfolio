@@ -9,18 +9,18 @@ const translations = {
         nav_about:      "À propos",
         nav_education:  "Formation",
         nav_experience: "Expérience",
-        nav_games:      "Jeux",
+        nav_games:      "Avis",
         nav_projects:   "Projets",
         nav_contact:    "Contact",
 
         /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
            ------------------------------------------------------------------------------------- ABOUT ----------------------------------------------------------------------------------
            ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
-        name:   "MARTIN RECHER",
-        job:    "Développeur Jeux Vidéo — C++ / Unreal Engine",
-        about_title: "À propos de moi",
-        about_p1: "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere.",
-        about_p2: "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere.",
+        name:           "MARTIN RECHER",
+        job:            "Développeur / Ingénieur Jeux Vidéo — C++ / Unreal Engine",
+        about_title:    "À propos de moi",
+        about_p1:       "Passionné par le jeu vidéo depuis petit, j’ai grandi à travers de nombreux univers qui m’ont offert de superbes souvenirs et émotions, que ce soit seul ou partagées avec des ami(e)s.",
+        about_p2:       "Aujourd’hui, en tant que développeur / ingénieur en jeux vidéo, mon objectif est de contribuer à la création de jeux capables de transmettre des émotions, de marquer les joueurs et de leur offrir, à leur tour, des moments mémorables à travers les projets auxquels je participe.",
 
         /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
            ----------------------------------------------------------------------------------- FORMATION --------------------------------------------------------------------------------
@@ -30,17 +30,17 @@ const translations = {
         edu_1_title:    "Maîtrise Informatique Cheminement en Jeux Vidéo - DDJV",
         edu_1_date:     "Septembre 2024 — Mai 2025",
         edu_1_location: "Université de Sherbrooke, Longueuil, Canada",
-        edu_1_desc:     "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere.",
+        edu_1_desc:     "maths, c++, IA, Gameplay, outils, infographie, Unreal, intégration des médias, gestion de projet, .",
     
         edu_2_title:    "Cycle Ingénieur Informatique - Option Intelligence Artificielle",
         edu_2_date:     "Septembre 2022 — Mai 2025",
         edu_2_location: "Polytech Tours, France",
-        edu_2_desc:     "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere.",
+        edu_2_desc:     "Le cycle ingénieur informatique de Polytech Tours m’a permis d’acquérir des bases solides et polyvalentes dans l’ensemble de ses domaines. Cette formation m’a appris à être autonome et à m’adapter rapidement, en développant une forte capacité d’apprentissage.",
 
         edu_3_title:    "Parcours des Écoles d'Ingénieur Polytech - Option Mathématiques",
         edu_3_date:     "Septembre 2020 — Mai 2022",
         edu_3_location: "Polytech Clermont-Ferrand, France",
-        edu_3_desc:     "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere.",
+        edu_3_desc:     "Années préparatoires au parcours ingénieur Polytech, axé sur l’acquisition de bases scientifiques, avec un approfondissement en mathématiques en deuxième année.",
 
         edu_4_title:    "Baccalauréat Scientifique - Mention Bien",
         edu_4_date:     "Mai 2020",
@@ -66,10 +66,10 @@ const translations = {
         /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
            ------------------------------------------------------------------------------------ PROJETS ---------------------------------------------------------------------------------
            ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
-        projects_title: "Mes Projets",
-        projects_school: "Projets scolaires",
-        projects_personal: "Projets personnels",
-        projects_view: "Voir le projet",
+        projects_title:     "Mes Projets",
+        projects_school:    "Projets scolaires",
+        projects_personal:  "Projets personnels",
+        projects_view:      "Voir le projet",
     
         proj_1_title: "Projet de session d'automne - Rocket Race",
         proj_1_date: "Octobre 2024 - Décembre 2024",
@@ -144,11 +144,11 @@ const translations = {
         /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
            ------------------------------------------------------------------------------------- ABOUT ----------------------------------------------------------------------------------
            ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
-        name:   "MARTIN RECHER",
-        job:    "Game Developer — C++ / Unreal Engine",
-        about_title: "About Me",
-        about_p1: "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere.",
-        about_p2: "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere.",
+        name:           "MARTIN RECHER",
+        job:            "Game Developer / Engineer — C++ / Unreal Engine",
+        about_title:    "About Me",
+        about_p1:       "Passionate about video games from a young age, I grew up exploring many different worlds that gave me wonderful memories and strong emotions, whether experienced alone or shared with friends.",
+        about_p2:       "Today, as a game developer / engineer, my goal is to contribute to the creation of games that convey emotions, leave a lasting impression on players, and in turn offer them memorable moments through the projects I take part in.",
 
         /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
            ----------------------------------------------------------------------------------- FORMATION --------------------------------------------------------------------------------
@@ -163,16 +163,17 @@ const translations = {
         edu_2_title:    "Software Engineer - Artificial Intelligence Option",
         edu_2_date:     "September 2022 — May 2025",
         edu_2_location: "Tours, France",
-        edu_2_desc:     "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere.",
+        edu_2_desc:     "The computer engineering program at Polytech Tours provided me with foundations across all areas of computer science. It also helped me develop autonomy, adaptability, and a ability to learn quickly.",
 
         edu_3_title:    "Preparatory Engineering School Polytech - Mathematics Option",
         edu_3_date:     "September 2020 — May 2022",
         edu_3_location: "Polytech Clermont-Ferrand, France",
-        edu_3_desc:     "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere.",
+        edu_3_desc:     "Preparatory years for the Polytech engineering program, focused on building scientific foundations, with a specialization in mathematics during the second year.",
 
-        edu_4_title:    "High School Diploma",
+        edu_4_title:    "High School Diploma (Science Focus)",
         edu_4_date:     "May 2020",
         edu_4_location: "Lycée Jean-Monnet, Joué-Les-Tours, France",
+        edu_4_desc:     "French scientific high school diploma focused on mathematics and sciences.",
 
         /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
            ---------------------------------------------------------------------------------- EXPERIENCES -------------------------------------------------------------------------------
