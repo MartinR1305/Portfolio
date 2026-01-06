@@ -86,7 +86,7 @@
               <img src="./images/Flags/Quebec.svg.webp" class="flag">
               <span data-i18n="edu_1_location"></span>
             </p>   
-            <p class="timeline-description" data-i18n="edu_1_desc"></p> 
+            <div class="description" data-i18n-html="edu_1_desc"></div>
           </p>               
         </div>
       </div>
@@ -103,7 +103,7 @@
                 <img src="./images/Flags/France.svg.png" class="flag">
                 <span data-i18n="edu_2_location"></span>
               </p>
-              <p class="timeline-description" data-i18n="edu_2_desc"></p>
+              <div class="description" data-i18n-html="edu_2_desc"></div>
             </p>
         </div>
       </div>
@@ -120,7 +120,7 @@
                 <img src="./images/Flags/France.svg.png" class="flag">
                 <span data-i18n="edu_3_location"></span>
               </p>
-              <p class="timeline-description" data-i18n="edu_3_desc"></p>
+              <div class="description" data-i18n-html="edu_3_desc"></div>
             </p>
         </div>
       </div>
@@ -137,7 +137,7 @@
                 <img src="./images/Flags/France.svg.png" class="flag">
                 <span data-i18n="edu_4_location"></span>
               </p>
-              <p class="timeline-description" data-i18n="edu_4_desc"></p>
+              <div class="description" data-i18n-html="edu_4_desc"></div>
             </p>
         </div>
       </div>
@@ -170,7 +170,7 @@
             <span data-i18n="exp_1_location"></span>
           </p>
       
-          <p class="timeline-description" data-i18n="exp_1_desc"></p>
+          <p class="description" data-i18n="exp_1_desc"></p>
         </div>      
       </div>
 
@@ -191,7 +191,7 @@
             <span data-i18n="exp_2_location"></span>
           </p>
       
-          <p class="timeline-description" data-i18n="exp_2_desc"></p>
+          <p class="description" data-i18n="exp_2_desc"></p>
         </div>      
       </div>
 
@@ -265,7 +265,7 @@
           </div>
 
           <!-- DESCRIPTION -->
-          <div class="project-description" data-i18n-html="proj_1_desc"></div>
+          <div class="description" data-i18n-html="proj_1_desc"></div>
 
 
           <!-- LINKS -->
@@ -341,7 +341,7 @@
           </div>
 
           <!-- DESCRIPTION -->
-          <div class="project-description" data-i18n-html="proj_1_desc"></div>
+          <div class="description" data-i18n-html="proj_1_desc"></div>
 
           <!-- LINKS -->
           <div class="project-links">
@@ -361,6 +361,7 @@
   <!------------------------------------------------------------------------------------- GAMES ---------------------------------------------------------------------------------->
   <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 
+  <!------------------------------------------------------------------------------------ RANKING --------------------------------------------------------------------------------->
   <section class="games" id="games">
       <h2 class="section-title" data-i18n="games_title"></h2>
 
@@ -374,7 +375,7 @@
       </div>
     </div>
 
-    <div class="top-game rank-2" style="background-image: url('./images/wallpaper.jpg)">
+    <div class="top-game rank-2" style="background-image: url('./images/wallpaper.jpg')">
       <div class="top-game-overlay"></div>
       <div class="top-game-content">
         <div class="rank-badge silver">#2</div>
@@ -382,7 +383,7 @@
       </div>
     </div>
 
-    <div class="top-game rank-3" style="background-image: url('./images/wallpaper.jpg)">
+    <div class="top-game rank-3" style="background-image: url('./images/wallpaper.jpg')">
       <div class="top-game-overlay"></div>
       <div class="top-game-content">
         <div class="rank-badge bronze">#3</div>
@@ -390,7 +391,7 @@
       </div>
     </div>
 
-    <div class="top-game rank-4" style="background-image: url('./images/wallpaper.jpg)">
+    <div class="top-game rank-4" style="background-image: url('./images/wallpaper.jpg')">
       <div class="top-game-overlay"></div>
       <div class="top-game-content">
         <div class="rank-badge">#4</div>
@@ -398,7 +399,7 @@
       </div>
     </div>
 
-    <div class="top-game rank-5" style="background-image: url('./images/wallpaper.jpg)">
+    <div class="top-game rank-5" style="background-image: url('./images/wallpaper.jpg')">
       <div class="top-game-overlay"></div>
       <div class="top-game-content">
         <div class="rank-badge">#5</div>
@@ -406,19 +407,21 @@
       </div>
     </div>
   
-
-    <!-- JEUX RÉCENTS -->
+    <!------------------------------------------------------------------------------- JEUX RÉCENTS ------------------------------------------------------------------------------->
     <h3 class="subtitle" data-i18n="games_recent"></h3>
     <div class="recent-games">
+
+      <!-------------------------------------------------------------------------------- SEKIRO ---------------------------------------------------------------------------------->
       <div class="recent-game">
 
-        <!-- HEADER -->
         <div class="recent-game-header">
           <img src="./images/Games/Sekiro.jpg" class="game-icon">
 
           <div class="game-main-info">
-            <h4>Sekiro - Shadows Die Twice</h4>
-            <span class="game-meta">60 h · ⭐ 19/20 · Janvier 2026</span>
+            <h4>Sekiro - Shadows Die Twice <span class="ps-platinum"></span> </h4>
+            <span 
+              class="game-meta">60 h · ⭐ 19/20 · Janvier 2026
+            </span>
           </div>
 
           <button class="recent-toggle">+</button>
@@ -458,6 +461,48 @@
         </div>
       </div>
 
+      <!-------------------------------------------------------------------------------- INAZUMA ---------------------------------------------------------------------------------->
+      <div class="recent-game">
+
+        <div class="recent-game-header">
+          <img src="./images/Games/inazuma.jpg" class="game-icon">
+
+          <div class="game-main-info">
+            <h4>INAZUMA ELEVEN - Victory Road</h4>
+            <span class="game-meta">110 h · ⭐ 17/20</span>
+          </div>
+
+          <button class="recent-toggle">+</button>
+        </div>
+    
+        <!-- DETAILS -->
+        <div class="recent-game-details">
+    
+          <div class="pros-cons">
+
+            <div class="pros">
+              <h5>👍 Ce que j’ai aimé</h5>
+              <ul>
+                <li>Level design ouvert et cohérent</li>
+                <li>Sensation de liberté</li>
+                <li>Direction artistique</li>
+              </ul>
+            </div>
+
+            <div class="cons">
+              <h5>👎 Ce que j’ai moins aimé</h5>
+                <ul>
+                  <li>Équilibrage inégal en fin de jeu</li>
+                  <li>Répétitivité de certains donjons</li>
+                </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!----------------------------------------------------------------------------- AC SHADOWS --------------------------------------------------------------------------------->
       <div class="recent-game">
 
         <!-- HEADER -->
@@ -465,8 +510,459 @@
           <img src="./images/Games/AC_Shadows.webp" class="game-icon">
 
           <div class="game-main-info">
-            <h4>Assassin's Creed Shadows</h4>
+            <h4>Assassin's Creed Shadows <span class="ps-platinum"></span> </h4>
             <span class="game-meta">100 h · ⭐ 13/20 · Novembre 2025</span>
+          </div>
+
+          <button class="recent-toggle">+</button>
+        </div>
+    
+        <!-- DETAILS -->
+        <div class="recent-game-details">
+    
+          <div class="pros-cons">
+
+            <div class="pros">
+              <h5>👍 Ce que j’ai aimé</h5>
+              <ul>
+                <li>Level design ouvert et cohérent</li>
+                <li>Sensation de liberté</li>
+                <li>Direction artistique</li>
+              </ul>
+            </div>
+
+            <div class="cons">
+              <h5>👎 Ce que j’ai moins aimé</h5>
+                <ul>
+                  <li>Équilibrage inégal en fin de jeu</li>
+                  <li>Répétitivité de certains donjons</li>
+                </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!------------------------------------------------------------------------------ DARK SOULS 3 ------------------------------------------------------------------------------->
+      <div class="recent-game">
+
+        <div class="recent-game-header">
+          <img src="./images/Games/ds3.jpg" class="game-icon">
+
+          <div class="game-main-info">
+            <h4>DARK SOULS 3 <span class="ps-platinum"></span> </h4>
+            <span class="game-meta">71 h · ⭐ 18/20 · Septembre 2025</span>
+          </div>
+
+          <button class="recent-toggle">+</button>
+        </div>
+    
+        <!-- DETAILS -->
+        <div class="recent-game-details">
+    
+          <div class="pros-cons">
+
+            <div class="pros">
+              <h5>👍 Ce que j’ai aimé</h5>
+              <ul>
+                <li>Level design ouvert et cohérent</li>
+                <li>Sensation de liberté</li>
+                <li>Direction artistique</li>
+              </ul>
+            </div>
+
+            <div class="cons">
+              <h5>👎 Ce que j’ai moins aimé</h5>
+                <ul>
+                  <li>Équilibrage inégal en fin de jeu</li>
+                  <li>Répétitivité de certains donjons</li>
+                </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-------------------------------------------------------------------------------- MAFIA 2 ---------------------------------------------------------------------------------->
+      <div class="recent-game">
+
+        <div class="recent-game-header">
+          <img src="./images/Games/mf2.jpg" class="game-icon">
+
+          <div class="game-main-info">
+            <h4>Mafia II : Definitive Edition <span class="ps-platinum"></span> </h4>
+            <span class="game-meta">83 h · ⭐ 15/20 · Septembre 2025</span>
+          </div>
+
+          <button class="recent-toggle">+</button>
+        </div>
+    
+        <!-- DETAILS -->
+        <div class="recent-game-details">
+    
+          <div class="pros-cons">
+
+            <div class="pros">
+              <h5>👍 Ce que j’ai aimé</h5>
+              <ul>
+                <li>Level design ouvert et cohérent</li>
+                <li>Sensation de liberté</li>
+                <li>Direction artistique</li>
+              </ul>
+            </div>
+
+            <div class="cons">
+              <h5>👎 Ce que j’ai moins aimé</h5>
+                <ul>
+                  <li>Équilibrage inégal en fin de jeu</li>
+                  <li>Répétitivité de certains donjons</li>
+                </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!------------------------------------------------------------------------------ DARK SOULS 2 ------------------------------------------------------------------------------->
+      <div class="recent-game">
+
+        <div class="recent-game-header">
+          <img src="./images/Games/ds2.jpg" class="game-icon">
+
+          <div class="game-main-info">
+            <h4>DARK SOULS 2 : Scholar of the First Sin <span class="ps-platinum"></span> </h4>
+            <span class="game-meta">92 h · ⭐ 14.5/20 · Août 2025</span>
+          </div>
+
+          <button class="recent-toggle">+</button>
+        </div>
+    
+        <!-- DETAILS -->
+        <div class="recent-game-details">
+    
+          <div class="pros-cons">
+
+            <div class="pros">
+              <h5>👍 Ce que j’ai aimé</h5>
+              <ul>
+                <li>Level design ouvert et cohérent</li>
+                <li>Sensation de liberté</li>
+                <li>Direction artistique</li>
+              </ul>
+            </div>
+
+            <div class="cons">
+              <h5>👎 Ce que j’ai moins aimé</h5>
+                <ul>
+                  <li>Équilibrage inégal en fin de jeu</li>
+                  <li>Répétitivité de certains donjons</li>
+                </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-------------------------------------------------------------------------------- MAFIA 1 ---------------------------------------------------------------------------------->
+      <div class="recent-game">
+
+        <div class="recent-game-header">
+          <img src="./images/Games/mf1.jpg" class="game-icon">
+
+          <div class="game-main-info">
+            <h4>Mafia : Definitive Edition <span class="ps-platinum"></span> </h4>
+            <span class="game-meta">25 h · ⭐ 17.5/20 · Juillet 2025</span>
+          </div>
+
+          <button class="recent-toggle">+</button>
+        </div>
+    
+        <!-- DETAILS -->
+        <div class="recent-game-details">
+    
+          <div class="pros-cons">
+
+            <div class="pros">
+              <h5>👍 Ce que j’ai aimé</h5>
+              <ul>
+                <li>Level design ouvert et cohérent</li>
+                <li>Sensation de liberté</li>
+                <li>Direction artistique</li>
+              </ul>
+            </div>
+
+            <div class="cons">
+              <h5>👎 Ce que j’ai moins aimé</h5>
+                <ul>
+                  <li>Équilibrage inégal en fin de jeu</li>
+                  <li>Répétitivité de certains donjons</li>
+                </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!------------------------------------------------------------------------------- PICO PARK 2 ------------------------------------------------------------------------------->
+      <div class="recent-game">
+
+        <div class="recent-game-header">
+          <img src="./images/Games/pico.png" class="game-icon">
+
+          <div class="game-main-info">
+            <h4>PICO PARK 2</h4>
+            <span class="game-meta">6 h · ⭐ 15/20 · Mai 2025</span>
+          </div>
+
+          <button class="recent-toggle">+</button>
+        </div>
+    
+        <!-- DETAILS -->
+        <div class="recent-game-details">
+    
+          <div class="pros-cons">
+
+            <div class="pros">
+              <h5>👍 Ce que j’ai aimé</h5>
+              <ul>
+                <li>Level design ouvert et cohérent</li>
+                <li>Sensation de liberté</li>
+                <li>Direction artistique</li>
+              </ul>
+            </div>
+
+            <div class="cons">
+              <h5>👎 Ce que j’ai moins aimé</h5>
+                <ul>
+                  <li>Équilibrage inégal en fin de jeu</li>
+                  <li>Répétitivité de certains donjons</li>
+                </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!---------------------------------------------------------------------------------- GRIS ----------------------------------------------------------------------------------->
+      <div class="recent-game">
+
+        <div class="recent-game-header">
+          <img src="./images/Games/gris.jpg" class="game-icon">
+
+          <div class="game-main-info">
+            <h4>GRIS <span class="ps-platinum"></span> </h4>
+            <span class="game-meta">7 h · ⭐ 14/20 · Janvier 2025</span>
+          </div>
+
+          <button class="recent-toggle">+</button>
+        </div>
+    
+        <!-- DETAILS -->
+        <div class="recent-game-details">
+    
+          <div class="pros-cons">
+
+            <div class="pros">
+              <h5>👍 Ce que j’ai aimé</h5>
+              <ul>
+                <li>Level design ouvert et cohérent</li>
+                <li>Sensation de liberté</li>
+                <li>Direction artistique</li>
+              </ul>
+            </div>
+
+            <div class="cons">
+              <h5>👎 Ce que j’ai moins aimé</h5>
+                <ul>
+                  <li>Équilibrage inégal en fin de jeu</li>
+                  <li>Répétitivité de certains donjons</li>
+                </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!------------------------------------------------------------------------------- Days Gone --------------------------------------------------------------------------------->
+      <div class="recent-game">
+
+        <div class="recent-game-header">
+          <img src="./images/Games/dg.jpg" class="game-icon">
+
+          <div class="game-main-info">
+            <h4>Days Gone <span class="ps-platinum"></span> </h4>
+            <span class="game-meta">83 h · ⭐ 16/20 · Décembre 2024</span>
+          </div>
+
+          <button class="recent-toggle">+</button>
+        </div>
+    
+        <!-- DETAILS -->
+        <div class="recent-game-details">
+    
+          <div class="pros-cons">
+
+            <div class="pros">
+              <h5>👍 Ce que j’ai aimé</h5>
+              <ul>
+                <li>Level design ouvert et cohérent</li>
+                <li>Sensation de liberté</li>
+                <li>Direction artistique</li>
+              </ul>
+            </div>
+
+            <div class="cons">
+              <h5>👎 Ce que j’ai moins aimé</h5>
+                <ul>
+                  <li>Équilibrage inégal en fin de jeu</li>
+                  <li>Répétitivité de certains donjons</li>
+                </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!------------------------------------------------------------------------------  AC MIRAGE --------------------------------------------------------------------------------->
+      <div class="recent-game">
+
+        <div class="recent-game-header">
+          <img src="./images/Games/mirage.webp" class="game-icon">
+
+          <div class="game-main-info">
+            <h4>Assassin's Creed Mirage <span class="ps-platinum"></span> </h4>
+            <span class="game-meta">26 h · ⭐ 15/20 · Décembre 2024</span>
+          </div>
+
+          <button class="recent-toggle">+</button>
+        </div>
+    
+        <!-- DETAILS -->
+        <div class="recent-game-details">
+    
+          <div class="pros-cons">
+
+            <div class="pros">
+              <h5>👍 Ce que j’ai aimé</h5>
+              <ul>
+                <li>Level design ouvert et cohérent</li>
+                <li>Sensation de liberté</li>
+                <li>Direction artistique</li>
+              </ul>
+            </div>
+
+            <div class="cons">
+              <h5>👎 Ce que j’ai moins aimé</h5>
+                <ul>
+                  <li>Équilibrage inégal en fin de jeu</li>
+                  <li>Répétitivité de certains donjons</li>
+                </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!----------------------------------------------------------------------------- HOLLOW KNIGHT ------------------------------------------------------------------------------->
+      <div class="recent-game">
+
+        <div class="recent-game-header">
+          <img src="./images/Games/hollow.webp" class="game-icon">
+
+          <div class="game-main-info">
+            <h4>Hollow Knight</h4>
+            <span class="game-meta">30 h · ⭐ 13/20 · Décembre 2024</span>
+          </div>
+
+          <button class="recent-toggle">+</button>
+        </div>
+    
+        <!-- DETAILS -->
+        <div class="recent-game-details">
+    
+          <div class="pros-cons">
+
+            <div class="pros">
+              <h5>👍 Ce que j’ai aimé</h5>
+              <ul>
+                <li>Level design ouvert et cohérent</li>
+                <li>Sensation de liberté</li>
+                <li>Direction artistique</li>
+              </ul>
+            </div>
+
+            <div class="cons">
+              <h5>👎 Ce que j’ai moins aimé</h5>
+                <ul>
+                  <li>Équilibrage inégal en fin de jeu</li>
+                  <li>Répétitivité de certains donjons</li>
+                </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!------------------------------------------------------------------------------- GOD OF WAR -------------------------------------------------------------------------------->
+      <div class="recent-game">
+
+        <div class="recent-game-header">
+          <img src="./images/Games/gow.jpg" class="game-icon">
+
+          <div class="game-main-info">
+            <h4>God Of War <span class="ps-platinum"></span> </h4>
+            <span class="game-meta">44 h · ⭐ 16/20 · Novembre 2024</span>
+          </div>
+
+          <button class="recent-toggle">+</button>
+        </div>
+    
+        <!-- DETAILS -->
+        <div class="recent-game-details">
+    
+          <div class="pros-cons">
+
+            <div class="pros">
+              <h5>👍 Ce que j’ai aimé</h5>
+              <ul>
+                <li>Level design ouvert et cohérent</li>
+                <li>Sensation de liberté</li>
+                <li>Direction artistique</li>
+              </ul>
+            </div>
+
+            <div class="cons">
+              <h5>👎 Ce que j’ai moins aimé</h5>
+                <ul>
+                  <li>Équilibrage inégal en fin de jeu</li>
+                  <li>Répétitivité de certains donjons</li>
+                </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!------------------------------------------------------------------------------ DARK SOULS 1 ------------------------------------------------------------------------------->
+      <div class="recent-game">
+
+        <div class="recent-game-header">
+          <img src="./images/Games/ds.jpg" class="game-icon">
+
+          <div class="game-main-info">
+            <h4>DARK SOULS : REMASTERED <span class="ps-platinum"></span> </h4>
+            <span class="game-meta">88 h · ⭐ 19/20 · Août 2024</span>
           </div>
 
           <button class="recent-toggle">+</button>
@@ -502,60 +998,67 @@
     </div>
   </section>
 
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+  <!------------------------------------------------------------------------------------ CONTACTS -------------------------------------------------------------------------------->
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 
   <section class="contact" id="contact">
-    <h2 class="section-title">Contact</h2>
-
+    <h2 class="section-title" data-i18n="contact_title"></h2>
+  
     <div class="contact-card">
-
-      <h3 class="contact-title">Informations de contact</h3>
-
+  
+      <h3 class="contact-title" data-i18n="contact_info_title"></h3>
+  
       <div class="contact-grid">
-
+  
         <div class="contact-item">
           <div class="contact-icon">✉️</div>
           <div>
-            <span class="contact-label">Email</span>
-            <span class="contact-value">votre.email@exemple.com</span>
+            <span class="contact-label" data-i18n="contact_email_label"></span>
+            <span class="contact-value">recher.martin.pro@gmail.com</span>
           </div>
         </div>
-
+  
         <div class="contact-item">
           <div class="contact-icon">📍</div>
           <div>
-            <span class="contact-label">Localisation</span>
-            <span class="contact-value">Votre ville, Pays</span>
+            <span class="contact-label" data-i18n="contact_location_label"></span>
+            <span class="contact-value" data-i18n="contact_location_value"></span>
           </div>
         </div>
-
+  
         <div class="contact-item">
           <div class="contact-icon">📞</div>
           <div>
-            <span class="contact-label">Téléphone</span>
-            <span class="contact-value">+33 X XX XX XX XX</span>
+            <span class="contact-label" data-i18n="contact_phone_label"></span>
+            <span class="contact-value">+33 6 05 00 01 96</span>
           </div>
         </div>
-
+  
         <div class="contact-item">
           <div class="contact-icon">in</div>
           <div>
             <span class="contact-label">LinkedIn</span>
-            <a class="contact-value link" href="#" target="_blank">
-              Profil LinkedIn
-            </a>
+            <a
+              class="contact-value link"
+              href="https://www.linkedin.com/in/martin-recher/"
+              target="_blank"
+              data-i18n="contact_linkedin"
+            ></a>
           </div>
         </div>
-
+  
       </div>
-
+  
       <div class="contact-availability">
         <span class="availability-icon">📅</span>
-        <strong>Disponibilité</strong>
-        <span>Disponible dès janvier 2026</span>
+        <strong data-i18n="contact_availability_label"></strong>
+        <span data-i18n="contact_availability_value"></span>
       </div>
-
+  
     </div>
   </section>
+  
 
 
 
@@ -565,27 +1068,24 @@
 
       <!-- Copyright -->
       <p class="footer-copy">
-        © 2026 Votre Nom. Tous droits réservés.
+        © 2026 Recher Martin. Tous droits réservés.
       </p>
 
     </div>
 
     <!-- Scroll to top -->
-  <button class="scroll-top" aria-label="Retour en haut">
-    <img
-      src="./images/Autres/arrow.png"
-      alt=""
-      class="scroll-top-icon"
-    >
-  </button>
-
-
-
-
+    <button class="scroll-top" aria-label="Retour en haut">
+      <img
+        src="./images/Autres/arrow.png"
+        alt=""
+        class="scroll-top-icon"
+      >
+    </button>
   </footer>
 
 
 
   <script src="script.js"></script>
+
 </body>
 </html>

@@ -98,6 +98,102 @@ body {
     border-radius   : 2px;
 }
 
+/* ------------------------------------------------------------------------------ DESCRIPTION ----------------------------------------------------------------------------------- */
+
+.description {
+    position        : relative;
+    padding-left    : 20px;
+    margin-top      : 24px;
+}
+
+.description::before {
+    content         : "";
+    position        : absolute;
+    left            : 0;
+    top             : 0;
+    width           : 3px;
+    height          : 100%;
+    background      : var(--accent);
+    border-radius   : 2px;
+}
+
+.description p {
+    margin-bottom   : 1.2rem;
+    line-height     : 1.7;
+    color           : var(--text-muted);
+    text-align      : justify;
+}
+
+.description strong {
+    color       : #fff;
+    font-weight : 400;
+}
+
+.description a {
+    color           : var(--accent);
+    text-decoration : none;
+    font-weight     : 500;
+    position        : relative;
+}
+
+.description a::after {
+    content     : "";
+    position    : absolute;
+    left        : 0;
+    bottom      : -2px;
+    width       : 100%;
+    height      : 1px;
+    background  : var(--accent);
+    opacity     : 0.4;
+}
+
+.description a:hover::after {
+    opacity : 1;
+}
+
+.description ul {
+    list-style      : none;
+    padding-left    : 0;
+    margin-top      : 1rem;
+}
+
+.description li {
+    position        : relative;
+    padding-left    : 22px;
+    margin-bottom   : 0rem;
+    color           : var(--text-muted);
+    line-height     : 0.5;
+}
+
+.description li::before {
+    content         : "";
+    position        : absolute;
+    left            : 0;
+    top             : 50%;
+    transform       : translateY(-50%);
+
+    width           : 8px;
+    height          : 8px;
+    border-radius   : 50%;
+
+    background      : var(--accent);
+}
+
+.ps-platinum {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-left: 6px;
+
+    background-image: url("./images/Games/platine.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    vertical-align: -3px;
+}
+
+
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
    ------------------------------------------------------------------------------------ MEDIA -----------------------------------------------------------------------------------
    ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
@@ -786,69 +882,6 @@ html {
 .project-media:hover .media-btn {
     opacity : 1;
 }
-
-/* ------------------------------------------------------------------------------ DESCRIPTION ----------------------------------------------------------------------------------- */
-
-.project-description {
-    position        : relative;
-    padding-left    : 20px;
-    margin-top      : 24px;
-}
-
-.project-description::before {
-    content         : "";
-    position        : absolute;
-    left            : 0;
-    top             : 0;
-    width           : 3px;
-    height          : 100%;
-    background      : linear-gradient(
-        to bottom,
-        var(--accent),
-        transparent
-    );
-    border-radius   : 2px;
-}
-
-.project-description p {
-    margin-bottom   : 1.2rem;
-    line-height     : 1.7;
-    color           : var(--text-muted);
-}
-
-.project-description p:last-of-type {
-    margin-top  : 1.8rem;
-    padding-top : 1rem;
-    border-top  : 1px solid rgba(30, 60, 90, 0.8);
-}
-
-.project-description strong {
-    color       : #fff;
-    font-weight : 600;
-}
-
-.project-description a {
-    color           : var(--accent);
-    text-decoration : none;
-    font-weight     : 500;
-    position        : relative;
-}
-
-.project-description a::after {
-    content     : "";
-    position    : absolute;
-    left        : 0;
-    bottom      : -2px;
-    width       : 100%;
-    height      : 1px;
-    background  : var(--accent);
-    opacity     : 0.4;
-}
-
-.project-description a:hover::after {
-    opacity : 1;
-}
-
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
    ------------------------------------------------------------------------------------ GAMES -----------------------------------------------------------------------------------

@@ -30,21 +30,114 @@ const translations = {
         edu_1_title:    "Maîtrise Informatique Cheminement en Jeux Vidéo - DDJV",
         edu_1_date:     "Septembre 2024 — Mai 2025",
         edu_1_location: "Université de Sherbrooke, Longueuil, Canada",
-        edu_1_desc:     "maths, c++, IA, Gameplay, outils, infographie, Unreal, intégration des médias, gestion de projet, .",
+        edu_1_desc:     
+            `
+            <p>
+                Formation intensive, enseignée par des professionnels actifs du milieu du jeu vidéo. Le programme associait cours spécialisés et projets de session en équipe, permettant de travailler dans des conditions proches d’un environnement de production réel. 
+                Les principaux axes de formation incluaient : 
+
+                <br>
+                <br>
+
+                <ul>
+                    <li> <strong>Concepts mathématiques</strong> et <strong>physiques appliqués</strong> en jeu vidéo — avec    <a  href="https://www.linkedin.com/in/thomas-rouby/"
+                                                                                                                                    target="_blank"
+                                                                                                                                    rel="noopener noreferrer">
+                                                                                                                                        Thomas Rouby.
+                                                                                                                                </a>
+                    </li>
+
+                    <br>
+
+                    <li> <strong>Concepts spécialisés de programmation</strong> en jeu vidéo — avec     <a  href="https://www.linkedin.com/in/patrice-roy-a050b02a4/"
+                                                                                                            target="_blank"
+                                                                                                            rel="noopener noreferrer">
+                                                                                                                Patrice Roy.
+                                                                                                        </a>
+                    </li>
+
+                    <br>
+
+                    <li> <strong>Intelligence artificielle appliquée</strong> en jeu vidéo — avec   <a  href="https://www.linkedin.com/in/carlecote/"
+                                                                                                        target="_blank"
+                                                                                                        rel="noopener noreferrer">
+                                                                                                            Carle Côté.
+                                                                                                    </a>
+
+                    </li>
+                    <br>
+                    <li> <strong>Gameplay</strong>, <strong>veille technologique</strong> en jeu vidéo & <strong>Unreal Engine</strong> — avec  <a  href="https://www.linkedin.com/in/mathieucharron/"
+                                                                                                                                                    target="_blank"
+                                                                                                                                                    rel="noopener noreferrer">
+                                                                                                                                                        Matthieu Charron.
+                                                                                                                                                </a>
+                    </li>
+
+                    <br>
+
+                    <li> <strong>Éléments fondamentaux d'infographie</strong> en jeu vidéo — avec   <a  href="https://www.linkedin.com/in/jean-philip-desjardins-4834396/"
+                                                                                                        target="_blank"
+                                                                                                        rel="noopener noreferrer">
+                                                                                                            Jean-Phillip Desjardins.
+                                                                                                    </a>
+                    </li>
+
+                    <br>
+
+                    <li> <strong>Intégration des médias numériques</strong> en jeu vidéo — avec     <a  href="https://www.linkedin.com/in/brian-mcwilliams-b68b63b8/"
+                                                                                                        target="_blank"
+                                                                                                        rel="noopener noreferrer">
+                                                                                                            Brian McWilliams.
+                                                                                                    </a>
+                    </li>
+
+                    <br>
+
+                    <li> <strong>Gestion de projets</strong> en jeu vidéo — avec    <a  href="https://www.linkedin.com/in/michelcere/"
+                                                                                        target="_blank"
+                                                                                        rel="noopener noreferrer">
+                                                                                            Michel Céré
+                                                                                    </a>
+                                                                                    &
+                                                                                    <a  href="https://www.linkedin.com/in/jeanpierreparra/"
+                                                                                        target="_blank"
+                                                                                        rel="noopener noreferrer">
+                                                                                            Jean-Pierre Parra.
+                                                                                    </a>
+                    </li>
+                </ul>
+            </p>
+            `,
     
         edu_2_title:    "Cycle Ingénieur Informatique - Option Intelligence Artificielle",
         edu_2_date:     "Septembre 2022 — Mai 2025",
         edu_2_location: "Polytech Tours, France",
-        edu_2_desc:     "Le cycle ingénieur informatique de Polytech Tours m’a permis d’acquérir des bases solides et polyvalentes dans l’ensemble de ses domaines. Cette formation m’a appris à être autonome et à m’adapter rapidement, en développant une forte capacité d’apprentissage.",
+        edu_2_desc:     
+            `
+            <p>
+                Le cycle ingénieur informatique de Polytech Tours m’a permis d’acquérir des bases solides et polyvalentes dans l’ensemble de ses domaines. Cette formation m’a appris à être autonome et à m’adapter rapidement, en développant une forte capacité d’apprentissage.",
+            </p>
+            `,
 
         edu_3_title:    "Parcours des Écoles d'Ingénieur Polytech - Option Mathématiques",
         edu_3_date:     "Septembre 2020 — Mai 2022",
         edu_3_location: "Polytech Clermont-Ferrand, France",
-        edu_3_desc:     "Années préparatoires au parcours ingénieur Polytech, axé sur l’acquisition de bases scientifiques, avec un approfondissement en mathématiques en deuxième année.",
+        edu_3_desc:     
+            `
+            <p>
+                Années préparatoires au parcours ingénieur Polytech, axé sur l’acquisition de bases scientifiques, avec un approfondissement en mathématiques en deuxième année.
+            </p>
+            `,
 
         edu_4_title:    "Baccalauréat Scientifique - Mention Bien",
         edu_4_date:     "Mai 2020",
         edu_4_location: "Lycée Jean-Monnet, Joué-Les-Tours, France",
+        edu_4_desc:     
+            `
+            <p>
+                Baccalauréat scientifique français, diplôme de fin de lycée avec une spécialisation en mathématiques, préparant aux études supérieures scientifiques.
+            </p>
+            `,
 
         /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
            ---------------------------------------------------------------------------------- EXPERIENCES -------------------------------------------------------------------------------
@@ -116,8 +209,8 @@ const translations = {
                rel="noopener noreferrer">
                 Jean-Phillip Desjardins.
             </a>
-        </p>
-    `,
+        </p> 
+        `,
     
         proj_2_title: "Projet Personnel IA",
         proj_2_date: "2024",
@@ -130,7 +223,26 @@ const translations = {
         games_favorites: "Mes jeux préférés",
         games_recent: "Jeux récents",
     
+        /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+           ------------------------------------------------------------------------------------ CONTACTS --------------------------------------------------------------------------------
+           ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+        contact_title: "Contact",
+        contact_info_title: "Informations de contact",
+        
+        contact_email_label: "Email",
+        contact_location_label: "Localisation",
+        contact_location_value: "Tours, France",
+        contact_phone_label: "Téléphone",
+        
+        contact_linkedin: "Mon LinkedIn",
+        
+        contact_availability_label: "Disponibilité",
+        contact_availability_value: "Disponible dès mars 2026",
+           
     },
+
+
+    
     en: {
         /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
            ----------------------------------------------------------------------------------- NAVIGATION -------------------------------------------------------------------------------
@@ -158,22 +270,114 @@ const translations = {
         edu_1_title:    "Master in Computer Science - Video Game Development",
         edu_1_date:     "September 2024 — May 2025",
         edu_1_location: "Longueuil, Canada",
-        edu_1_desc:     "Tantum autem cuique tribuendum, primum quantum ipse efficere possis, deinde etiam quantum ille quem diligas atque adiuves, sustinere.",
+        edu_1_desc:                 
+            `
+            <p>
+                Intensive training program taught by active professionals from the video game industry. The curriculum combined specialized courses and team-based semester projects, allowing students to work in conditions close to a real production environment. 
+                The main areas of training included : 
+
+                <br>
+                <br>
+
+                <ul>
+                    <li> <strong>Mathematical</strong> and <strong>applied physics concepts</strong> for video games — with     <a  href="https://www.linkedin.com/in/thomas-rouby/"
+                                                                                                                                    target="_blank"
+                                                                                                                                    rel="noopener noreferrer">
+                                                                                                                                        Thomas Rouby.
+                                                                                                                                </a>
+                    </li>
+
+                    <br>
+
+                    <li> <strong>Specialized programming concepts</strong> for video games — with   <a  href="https://www.linkedin.com/in/patrice-roy-a050b02a4/"
+                                                                                                        target="_blank"
+                                                                                                        rel="noopener noreferrer">
+                                                                                                            Patrice Roy.
+                                                                                                    </a>
+                    </li>
+
+                    <br>
+
+                    <li> <strong>Applied artificial intelligence</strong> for video games — with    <a  href="https://www.linkedin.com/in/carlecote/"
+                                                                                                        target="_blank"
+                                                                                                        rel="noopener noreferrer">
+                                                                                                            Carle Côté.
+                                                                                                    </a>
+
+                    </li>
+                    <br>
+                    <li> <strong>Gameplay</strong>, <strong>technology watch</strong> in video games & <strong>Unreal Engine</strong> — with    <a  href="https://www.linkedin.com/in/mathieucharron/"
+                                                                                                                                                    target="_blank"
+                                                                                                                                                    rel="noopener noreferrer">
+                                                                                                                                                        Matthieu Charron.
+                                                                                                                                                </a>
+                    </li>
+
+                    <br>
+
+                    <li> <strong>Fundamental elements of computer graphics</strong> for video games — with  <a  href="https://www.linkedin.com/in/jean-philip-desjardins-4834396/"
+                                                                                                                target="_blank"
+                                                                                                                rel="noopener noreferrer">
+                                                                                                                    Jean-Phillip Desjardins.
+                                                                                                            </a>
+                    </li>
+
+                    <br>
+
+                    <li> <strong>Digital media integration</strong> for video games — with  <a  href="https://www.linkedin.com/in/brian-mcwilliams-b68b63b8/"
+                                                                                                target="_blank"
+                                                                                                rel="noopener noreferrer">
+                                                                                                    Brian McWilliams.
+                                                                                            </a>
+                    </li>
+
+                    <br>
+
+                    <li> <strong>Project management</strong> for video games — with    <a  href="https://www.linkedin.com/in/michelcere/"
+                                                                                            target="_blank"
+                                                                                            rel="noopener noreferrer">
+                                                                                                Michel Céré
+                                                                                        </a>
+                                                                                        &
+                                                                                        <a  href="https://www.linkedin.com/in/jeanpierreparra/"
+                                                                                            target="_blank"
+                                                                                            rel="noopener noreferrer">
+                                                                                                Jean-Pierre Parra.
+                                                                                        </a>
+                    </li>
+                </ul>
+            </p> 
+            `,
     
         edu_2_title:    "Software Engineer - Artificial Intelligence Option",
         edu_2_date:     "September 2022 — May 2025",
         edu_2_location: "Tours, France",
-        edu_2_desc:     "The computer engineering program at Polytech Tours provided me with foundations across all areas of computer science. It also helped me develop autonomy, adaptability, and a ability to learn quickly.",
+        edu_2_desc:                 
+            `
+            <p>
+                The computer engineering program at Polytech Tours provided me with foundations across all areas of computer science. It also helped me develop autonomy, adaptability, and a ability to learn quickly.
+            </p> 
+            `,
 
         edu_3_title:    "Preparatory Engineering School Polytech - Mathematics Option",
         edu_3_date:     "September 2020 — May 2022",
         edu_3_location: "Polytech Clermont-Ferrand, France",
-        edu_3_desc:     "Preparatory years for the Polytech engineering program, focused on building scientific foundations, with a specialization in mathematics during the second year.",
+        edu_3_desc:     
+            `
+            <p>
+                Preparatory years for the Polytech engineering program, focused on building scientific foundations, with a specialization in mathematics during the second year.
+            </p> 
+            `,
 
         edu_4_title:    "High School Diploma (Science Focus)",
         edu_4_date:     "May 2020",
         edu_4_location: "Lycée Jean-Monnet, Joué-Les-Tours, France",
-        edu_4_desc:     "French scientific high school diploma focused on mathematics and sciences.",
+        edu_4_desc:     
+            `
+            <p>
+                French Scientific Baccalaureate, a high school diploma with a specialization in mathematics, preparing students for scientific higher education.            
+            </p> 
+            `,
 
         /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
            ---------------------------------------------------------------------------------- EXPERIENCES -------------------------------------------------------------------------------
@@ -217,6 +421,23 @@ const translations = {
         games_title: "Ma culture vidéoludique",
         games_favorites: "Mes jeux préférés",
         games_recent: "Jeux récents",
+
+        /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+           ------------------------------------------------------------------------------------ CONTACTS --------------------------------------------------------------------------------
+           ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+        contact_title: "Contact",
+        contact_info_title: "Contact Information",
+
+        contact_email_label: "Email",
+        contact_location_label: "Location",
+        contact_location_value: "Tours, France",
+        contact_phone_label: "Phone",
+
+        contact_linkedin: "My LinkedIn",
+
+        contact_availability_label: "Availability",
+        contact_availability_value: "Available from March 2026",
+
 
     }
 };
