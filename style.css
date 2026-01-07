@@ -924,7 +924,7 @@ html {
 .top-game {
     margin-top          : 0.5rem;
     position            : relative;
-    height              : 160px;
+    height              : 200px;
     border-radius       : 16px;
     overflow            : hidden;
 
@@ -933,6 +933,11 @@ html {
 
     box-shadow          : 0 20px 50px rgba(0,0,0,0.6);
     transition          : transform 0.35s ease, box-shadow 0.35s ease;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000; /* optionnel */
 }
 
 .top-game:hover {
